@@ -1,10 +1,50 @@
-*.boas-vindas{
-    margin-top: 60px;
+
+.padding-topo-1{
+    padding-top: 6%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.padding-topo-2{
+    padding-top: 6%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.img-tamanho{
+    align-self: center;
+    width: 180px;
+    height: 180px;
+    padding: 2%;
+    padding-top: 7%;
+}
+.card-title{
     text-align: center;
 }
 
-
-.artigos-us{
-  
-   padding-left: 195px;
+.tamanho-card-bem-vindo{
+   padding-top: 50px;
+   text-align: center;
+   margin-right:auto;
 }
+
+.card-body-alinamento{
+    padding: 0;
+    text-align: center;
+}
+
+.artigos{
+    padding-top: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: none;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.card-body-alinhamento-itens{
+   align-items: center;
+   align-content: center;
+   text-align: center;
+}
+
