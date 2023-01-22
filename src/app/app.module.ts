@@ -8,6 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { rotas } from './app.rotas';
+import { PortugueseArticleComponent } from './portuguese-article/portuguese-article.component';
+import { EnglishArticleComponent } from './english-article/english-article.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { rotas } from './app.rotas';
     NavbarComponent,
     HomeComponent,
     FooterComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    PortugueseArticleComponent,
+    EnglishArticleComponent,
+    
   ],
   imports: [
     BrowserModule,
