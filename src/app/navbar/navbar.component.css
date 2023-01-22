@@ -12,9 +12,10 @@
     text-decoration:underline;;
     color: aliceblue;
     font-size: 16px;
+    background-color: #007bff;
 }
 
-.nav-item:hover {
+.nav-item #navbarNav:hover {
     background-color: rgb(176, 176, 176);
     border-radius: 5px;
     text-decoration: none;
@@ -37,10 +38,18 @@
     height: 60px;
   }
 
+  .discord {
+    background-color: #007bff;
+  }
+
   .meetup img{
     margin-right: 20px;
     width: 45px;
     height: 38px;
+  }
+
+  .meetup {
+    background-color: #007bff;
   }
 
   .meetup img:hover{
