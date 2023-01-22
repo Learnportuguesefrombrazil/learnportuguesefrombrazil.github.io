@@ -3,26 +3,31 @@
   height: 65px;
 }
 
+.navbar-nav{
+  padding-left: 12px;
+  background-color: #007bff;
+}
+.navbar-nav :hover{
+  text-decoration: none;
+  background-color: rgb(176, 176, 176);
+  border-radius: 5px;
+}
+
 .navbar-brand img{
   height: 38px;
 }
 
 .nav-item {
-    text-decoration-color: rgb(17, 17, 17);
-    text-decoration:underline;;
+    cursor: pointer;
+    text-decoration:underline;
     color: aliceblue;
     font-size: 16px;
     background-color: #007bff;
 }
 
-.nav-item #navbarNav:hover {
-    background-color: rgb(176, 176, 176);
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-  }
 
-  .card-img-top{
+
+.card-img-top{
     width: 40px;
     border-radius: 7%;
   }
@@ -34,11 +39,15 @@
   }
 
   .discord img:hover{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 45px;
   }
 
   .discord {
+    background-color: #007bff !important;
+  }
+
+  .discord :hover{
     background-color: #007bff;
   }
 
@@ -49,11 +58,24 @@
   }
 
   .meetup {
+    background-color: #007bff !important;
+  }
+
+  .meetup :hover{
     background-color: #007bff;
   }
 
   .meetup img:hover{
     margin-right: 20px;
-    width: 60px;
-    height: 48px;
+    width: 50px;
+    height: 45px;
   }
+
+  .nav-item a {
+    text-decoration-color: rgb(107, 166, 235); 
+    color: aliceblue;
+  }
+
+
+
+
