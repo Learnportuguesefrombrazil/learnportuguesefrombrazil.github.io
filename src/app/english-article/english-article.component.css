@@ -21,3 +21,12 @@
 .referencia-article{
     margin-top: 70px;
 }
+
+.parafrafo-portuguese h1{
+    margin-bottom: 40px;
+}
+
+.parafrafo-portuguese p{
+    margin-bottom: 40px;
+    text-align: justify;
+}
