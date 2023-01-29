@@ -1,4 +1,7 @@
-
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
 .padding-topo-1{
     margin-top: 68px;
     
@@ -36,11 +39,30 @@
     padding-top: 6%;
     padding-left: 2%;
     padding-right: 2%;
-    border-radius: none;
     text-align: center;
     font-weight: bolder;
 }
 
+.border{
+    margin: 30px;
+    padding-bottom: 60px;
+    border-radius: 5px;
+}
+
+.border:hover{
+    font-size: 30px;
+}
+
+.border:hover img{
+    width: 148px;
+}
+
+.art-1:hover {
+    border-color: rgb(19, 243, 49) !important;
+}
+.art-2:hover {
+    border-color: rgb(243, 19, 19) !important;
+}
 .card-body-alinhamento-itens{
    align-items: center;
    align-content: center;
