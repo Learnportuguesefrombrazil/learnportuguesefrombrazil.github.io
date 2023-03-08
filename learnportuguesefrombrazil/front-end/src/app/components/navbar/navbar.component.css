@@ -1,0 +1,74 @@
+.navbar {
+  height: 65px;
+}
+
+.navbar-nav {
+  padding-left: 12px;
+  background-color: #007bff;
+}
+.navbar-nav :hover {
+  text-decoration: none;
+  background-color: rgb(176, 176, 176);
+  border-radius: 5px;
+}
+
+.navbar-brand img {
+  height: 38px;
+}
+
+.nav-item {
+  cursor: pointer;
+  text-decoration: underline;
+  color: aliceblue;
+  font-size: 16px;
+  background-color: #007bff;
+}
+
+.card-img-top {
+  width: 40px;
+  border-radius: 7%;
+}
+
+.discord img {
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.discord img:hover {
+  width: 50px;
+  height: 45px;
+}
+
+.discord {
+  background-color: #007bff !important;
+}
+
+.discord :hover {
+  background-color: #007bff;
+}
+
+.meetup img {
+  margin-right: 20px;
+  width: 45px;
+  height: 38px;
+}
+
+.meetup {
+  background-color: #007bff !important;
+}
+
+.meetup :hover {
+  background-color: #007bff;
+}
+
+.meetup img:hover {
+  margin-right: 20px;
+  width: 50px;
+  height: 45px;
+}
+
+.nav-item a {
+  text-decoration-color: rgb(107, 166, 235);
+  color: aliceblue;
+}

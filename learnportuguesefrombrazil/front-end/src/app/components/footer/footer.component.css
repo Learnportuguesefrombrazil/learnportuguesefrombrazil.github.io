@@ -1,0 +1,23 @@
+
+/*container-fluid*/
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*footer*/
+
+.footer{
+    margin-top: 180px;
+	margin-bottom: 10px;
+	padding-top: 40px;
+	padding-bottom: 15px;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #263238;
+	background-size: 100% auto;
+	font-size: 15px;
+	color: aliceblue;
+}
