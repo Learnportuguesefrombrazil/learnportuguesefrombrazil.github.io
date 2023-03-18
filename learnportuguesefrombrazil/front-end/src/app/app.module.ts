@@ -2,15 +2,15 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
-import { AboutUsComponent } from './about-us/about-us.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { rotas } from './app.rotas';
-import { EnglishArticleComponent } from './english-article/english-article.component';
-import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { PortugueseArticleComponent } from './portuguese-article/portuguese-article.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { EnglishArticleComponent } from './components/english-article/english-article.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './components/home/home.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { PortugueseArticleComponent } from './components/portuguese-article/portuguese-article.component';
 
 @NgModule({
   declarations: [
