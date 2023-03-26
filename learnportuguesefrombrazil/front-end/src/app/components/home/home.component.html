@@ -1,59 +1,83 @@
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-3 padding-topo-1">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-3" style="padding-top: 92px">
       <div class="card" style="max-width: 35rem">
-        <img
-          src="assets/img/logo.png"
-          class="card-img-top img-tamanho"
-          alt="..."
-        />
+        <img src="assets/img/calander.png" class="card-img-top img-tamanho" alt="..." />
         <div class="card-body-alinhamento-itens">
-          <h5 class="card-title">Seja muito bem-vindo!</h5>
+          <h5 class="card-title" style="color: rgb(31, 158, 158); font-weight: bold">
+            Next Event
+          </h5>
+          <h5 class="card-title">Sunday, March 26, 2023</h5>
+          <h5>5:00 PM Time NY, USA</h5>
+          <p>--------------</p>
+          <h5 class="card-title">26 de Março de 2023</h5>
+          <h5>18:00 PM Time Brasília, BR</h5>
           <h5>
-            <a
-              href="https://www.meetup.com/pt-BR/brazilian-portuguese-classes-for-foreigners/events/"
-              class="btn btn-primary"
-              target="_blank"
-              >Eventos
+            <a href="https://www.meetup.com/pt-BR/brazilian-portuguese-classes-for-foreigners/events/"
+              class="btn btn-primary" target="_blank">know more
             </a>
           </h5>
         </div>
       </div>
     </div>
-
     <div class="col-12 col-md-7 padding-topo-2">
-      <div class="tamanho-card-bem-vindo">
-        <div class="card-body card-body-alinamento">
-          <h1>Bem-vindo ao Language Exchange</h1>
-          <h1>de</h1>
-          <h1>Português e Inglês do Brasil </h1>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="8000">
+            <img src="assets/img/languageExchange.JPG" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="background-color: rgba(184, 184, 184, 0.774)">
+                Language Exchange
+              </h5>
+              <p style="background-color: rgb(184, 184, 184, 0.774)">
+                Come and practice Portuguese and English with our super cool and
+                relaxed language exchange.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="8000">
+            <img src="assets/img/students2.JPG" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="background-color: rgba(184, 184, 184, 0.774)">
+                English Language
+              </h5>
+              <p style="background-color: rgb(184, 184, 184, 0.774)">
+                Come practice English Language with natives in a relaxed and fun
+                way.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="8000">
+            <img src="assets/img/students.JPG" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="background-color: rgba(184, 184, 184, 0.774)">
+                Portuguese Language
+              </h5>
+              <p style="background-color: rgb(184, 184, 184, 0.774)">
+                Come practice Portuguese Language with natives in a relaxed and
+                fun way.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </div>
-    <div class="col-12 col-md-2"></div>
-  </div>
-
-  <div class="row justify-content-center">
-    <div class="col-12 col-xs-12 col-md-2 artigos art-1 border border-primary">
-      <img src="assets/img/brasil-flag.jpg" class="card-img-top" alt="Learnportuguesefrombrazil imagem do artigo em português" />
-      <p>Artigo</p>
-      <a
-        routerLink="/portuguese-article"
-        class="btn btn-primary"
-        style="align-items: center"
-        >Português</a
-      >
-    </div>
-
-    <div class="col-12 col-xs-12 col-md-2 artigos art-2 border border-primary">
-      <img src="assets/img/usa-flag.jpg" class="card-img-top" alt="Learnportuguesefrombrazil imagem do artigo em inglês" />
-      <p>Article</p>
-      <a
-        routerLink="/english-article"
-        class="btn btn-primary"
-        style="align-items: center"
-        >English</a
-      >
+      <div class="col-12 col-md-2"></div>
     </div>
   </div>
 </div>

@@ -2,9 +2,13 @@
   height: 65px;
 }
 
+.bg-primary{
+  background-color: #6E9BAE !important;
+}
+
 .navbar-nav {
   padding-left: 12px;
-  background-color: #007bff;
+  background-color: #6E9BAE;
 }
 .navbar-nav :hover {
   text-decoration: none;
@@ -21,7 +25,7 @@
   text-decoration: underline;
   color: aliceblue;
   font-size: 16px;
-  background-color: #007bff;
+  background-color: #6E9BAE;
 }
 
 .card-img-top {
@@ -41,11 +45,11 @@
 }
 
 .discord {
-  background-color: #007bff !important;
+  background-color: #6E9BAE !important;
 }
 
 .discord :hover {
-  background-color: #007bff;
+  background-color: #6E9BAE;
 }
 
 .meetup img {
@@ -55,11 +59,11 @@
 }
 
 .meetup {
-  background-color: #007bff !important;
+  background-color: #6E9BAE !important;
 }
 
 .meetup :hover {
-  background-color: #007bff;
+  background-color: #6E9BAE;
 }
 
 .meetup img:hover {
