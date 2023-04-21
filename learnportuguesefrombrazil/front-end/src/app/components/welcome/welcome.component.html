@@ -1,0 +1,16 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold" style="padding-top: 33px; font-size: 25px;">Bem-vindo ao nosso Quiz!</h1>
+    <p class="colmd-8 fs-4">Learn Portuguese from Brazil QUIZ</p>
+    <ol>
+        <li>1. Uma resposta correta vale 10 pontos</li>
+        <li>2. Uma resposta incorreta vale -10 pontos</li>
+        <li>3. Você terá 120 segundos para responder cada questão</li>
+        <li>4. Atualizando a página vai resetar o QUIZ</li>
+    </ol>
+    <h1 style="font-family: cursive;text-align: center;">Boa sorte!</h1>
+    <div class="name col-md-4 my-3">
+        <label for="">Informe o seu nome:</label>
+        <input #name type="text" class="form-control">
+    </div>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Iniciar o Quiz!</button>
+</div>

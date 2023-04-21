@@ -1,0 +1,128 @@
+{
+    "questions": [{
+            "questionText": "De acordo com o artigo quais países os cidadãos terá que ter visto para visitar o Brasil?",
+            "options": [{
+                    "text": "Estados Unidos,Japão,Autrália,Canadá",
+                    "correct": true
+                },
+                {
+                    "text": "México,Argentina,Canadá,Estados Unidos"
+                },
+                {
+                    "text": "Portugal,Canadá,França,Itália"
+                },
+                {
+                    "text": "Estados Unidos, Austrália,Canadá,Japão,França"
+                }
+            ],
+            "explanation": "TS uses a colon (:) to separate the property name from the property type"
+        },
+        {
+            "questionText": "Qual o nome do ex-presidente que removeu os requisitos de visto de acordo com o artigo ?",
+            "options": [{
+                    "text": "Messias"
+                },
+                {
+                    "text": "José Junior"
+                },
+                {
+                    "text": "Luiz Inácio Lula da Silva"
+                },
+                {
+                    "text": "Jair Bolsonaro",
+                    "correct": true
+                }
+            ],
+            "explanation": "enum is not used as a type in TypeScript"
+        },
+        {
+            "questionText": "Qual era a quantidade de turistas que o Brasil recebia antes da pandemia?",
+            "options": [{
+                    "text": "7,4 milhões.."
+                },
+                {
+                    "text": "6,4 milhões.",
+                    "correct": true
+                },
+                {
+                    "text": "6,3 milhões.."
+                },
+                {
+                    "text": "8,4 milhões.."
+                }
+            ],
+            "explanation": "interfaces are typically used to list the properties and methods for an object"
+        },
+        {
+            "questionText": "Em quais anos dados do Ministério do Turismo do Brasil mostram que as visitas de americanos, australianos, canadenses e japoneses caíram?",
+            "options": [{
+                    "text": "@number"
+                },
+                {
+                    "text": "2019 e 2021",
+                    "correct": true
+                },
+                {
+                    "text": "2019 e 2022!"
+                },
+                {
+                    "text": "2018 e 2021?"
+                }
+            ],
+            "explanation": "number[] is another way of writing Array<number> in TypeScript"
+        },
+        {
+            "questionText": "Em qual cidade fica os bondinhos do Pão de Açúcar?",
+            "options": [{
+                    "text": "Rio de Janeiro",
+                    "correct": true
+                },
+                {
+                    "text": "Brasília"
+                },
+                {
+                    "text": "São Paulo"
+                },
+                {
+                    "text": "Belo Horizonte"
+                }
+            ],
+            "explanation": "a constructor is used by a class to take in parameters"
+        },
+        {
+            "questionText": "Qual o nome do cientista político brasileiro citado no artigo?",
+            "options": [{
+                    "text": "Pedro Gomes"
+                },
+                {
+                    "text": "Luiz Inácio Lula da Silva"
+                },
+                {
+                    "text": "Jair Bolsonaro"
+                },
+                {
+                    "text": "Leonardo Paz",
+                    "correct": true
+                }
+            ],
+            "explanation": "async is not used as an access modifier type in TypeScript"
+        },
+        {
+            "questionText": "Em qual data o Brasil passará a exigir vistos para cidadãos dos Estados Unidos, Austrália, Canadá e Japão  ?",
+            "options": [{
+                    "text": "1º de novembro"
+                },
+                {
+                    "text": "1º de outubro",
+                    "correct": true
+                },
+                {
+                    "text": "2º de outubro"
+                },
+                {
+                    "text": "1º de março"
+                }
+            ],
+            "explanation": "the export keyword allows for the information to be transmitted between files"
+        }]
+ }

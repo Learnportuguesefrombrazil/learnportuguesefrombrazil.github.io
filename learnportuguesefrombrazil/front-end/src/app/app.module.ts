@@ -11,6 +11,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PortugueseArticleComponent } from './components/portuguese-article/portuguese-article.component';
+import { QuestionComponent } from './components/question/question.component';
+import { WelcomeComponent } from './components/welcome/welcome-component';
+import { HttpClientModule } from '@angular/common/http';
+import { ChangeBgDirective } from './directives/change-bg.directive';
 
 @NgModule({
   declarations: [
@@ -21,12 +25,16 @@ import { PortugueseArticleComponent } from './components/portuguese-article/port
     AboutUsComponent,
     PortugueseArticleComponent,
     EnglishArticleComponent,
+    QuestionComponent,
+    WelcomeComponent,
+    ChangeBgDirective
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    rotas
+    rotas,
+    HttpClientModule
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]

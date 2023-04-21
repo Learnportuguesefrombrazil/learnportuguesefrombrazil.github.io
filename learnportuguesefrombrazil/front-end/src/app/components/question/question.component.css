@@ -1,0 +1,18 @@
+.card{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.options li{
+    padding: 8px;
+}
+
+.chevron{
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+li .card:hover{
+    border: 1px solid blue;
+}
