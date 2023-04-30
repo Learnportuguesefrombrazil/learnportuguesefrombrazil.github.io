@@ -1,6 +1,6 @@
 <div class="container" style="padding-top: 90px;">
     <div class="card">
-        <ng-container *ngIf="!isQuizCompleted">
+        <ng-container>
             <div class="d-flex justify-content-between p-3">
                 <div>
                     <img src="assets/img/quiz.png" style="width: 80px; height: 80px;" alt="">
@@ -51,7 +51,7 @@
             </div>
         </ng-container>
 
-        <ng-container *ngIf="isQuizCompleted">
+        <ng-container *ngIf="isQuizCompleted; else getQuizNotCompleted">
             <div class="row d-flex justify-content-between">
                 <img style="width: 50%;" class="img-fluid col-sm-6 mx-auto" src="assets/img/congrats.gif" alt="">
                 <div class="result text-center col-md-6 col-sm-6">
@@ -64,10 +64,31 @@
                     <p>Total de questões: {{questionList.length}}</p>
                     <p>Total de respostas corretas: {{correctAnswer}}</p>
                     <p>Total de respostas incorretas: {{inCorrectAnswer}}</p>
-                    <p>Sua pontuação: {{correctAnswer - inCorrectAnswer}}</p>
+                    <p>Sua pontuação: {{correctAnswer}}0 pontos</p>
                 </div>
             </div>
+        </ng-container>
 
+        <ng-template #getQuizNotCompleted>
+        </ng-template>
+
+        <ng-container *ngIf="quizNotCompleted">
+            <div class="row d-flex justify-content-between">
+                <img style="width: 50%;" class="img-fluid col-sm-6 mx-auto" src="assets/img/failed-test.gif" alt="">
+                <div class="result text-center col-md-6 col-sm-6">
+                    <h3>Que pena {{name}}!!
+                        <br>
+                        Você não conseguiu completar o quiz, más não desista
+                        é só você ler o artigo e tentar novamente.
+                        <br>
+                        Abaixo está o seu resultado:
+                    </h3>
+                    <p>Total de questões: {{questionList.length}}</p>
+                    <p>Total de respostas corretas: {{correctAnswer}}</p>
+                    <p>Total de respostas incorretas: {{inCorrectAnswer}}</p>
+                    <p>Sua pontuação: {{correctAnswer}}0 pontos</p>
+                </div>
+            </div>
         </ng-container>
 
     </div>
