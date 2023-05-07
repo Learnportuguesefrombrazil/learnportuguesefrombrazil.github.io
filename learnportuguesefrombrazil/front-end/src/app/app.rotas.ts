@@ -6,6 +6,7 @@ import { HomeComponent } from "./components/home/home.component";
 import { PortugueseArticleComponent } from "./components/portuguese-article/portuguese-article.component";
 import { WelcomeComponent } from "./components/welcome/welcome-component";
 import { QuestionComponent } from "./components/question/question.component";
+import { TipsComponent } from "./components/tips/tips.component";
 
 const APP_MINHAS_ROTAS: Routes = [
     { path: '', component: HomeComponent},
@@ -14,6 +15,7 @@ const APP_MINHAS_ROTAS: Routes = [
     { path: 'about-us', component: AboutUsComponent},
     { path: 'welcome', component: WelcomeComponent},
     { path: 'question', component: QuestionComponent},
+    { path: 'tips', component: TipsComponent},
 
 ];
 

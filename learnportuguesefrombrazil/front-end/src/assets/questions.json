@@ -1,126 +1,126 @@
 {
     "questions": [{
-            "questionText": "De acordo com o artigo quais países os cidadãos terá que ter visto para visitar o Brasil?",
+            "questionText": "Sobre qual tema estava sendo discutido no artigo?",
             "options": [{
-                    "text": "Estados Unidos,Japão,Autrália,Canadá",
+                    "text": "Dicas para escolher o restaurante certo.",
                     "correct": true
                 },
                 {
-                    "text": "México,Argentina,Canadá,Estados Unidos"
+                    "text": "Dicas de beleza"
                 },
                 {
-                    "text": "Portugal,Canadá,França,Itália"
+                    "text": "Viagens internacionais."
                 },
                 {
-                    "text": "Estados Unidos, Austrália,Canadá,Japão,França"
+                    "text": "Estilo de vida."
                 }
             ],
             "explanation": "TS uses a colon (:) to separate the property name from the property type"
         },
         {
-            "questionText": "Qual o nome do ex-presidente que removeu os requisitos de visto de acordo com o artigo ?",
+            "questionText": "Quais das alternativas abaixo corresponde as dicas dadas no artigo ?",
             "options": [{
-                    "text": "Messias"
+                    "text": "Não fazer pesquisa antes de ir a um restaurante."
                 },
                 {
-                    "text": "José Junior"
+                    "text": "Não olhar o cardápio."
                 },
                 {
-                    "text": "Luiz Inácio Lula da Silva"
+                    "text": "Não verificar os preços dos alimentos e bebidas."
                 },
                 {
-                    "text": "Jair Bolsonaro",
+                    "text": "Fazer uma pesquisa.",
                     "correct": true
                 }
             ],
             "explanation": "enum is not used as a type in TypeScript"
         },
         {
-            "questionText": "Qual era a quantidade de turistas que o Brasil recebia antes da pandemia?",
+            "questionText": "Segundo o artigo e com as palavras do Jay Rayner, redator de culinária do Observer, o que deve ser observado no menu ?",
             "options": [{
-                    "text": "7,4 milhões.."
+                    "text": "A cor do menu"
                 },
                 {
-                    "text": "6,4 milhões.",
+                    "text": "Tamanho do menu e as palavras que ele usa.",
                     "correct": true
                 },
                 {
-                    "text": "6,3 milhões.."
+                    "text": "O nome dos pratos."
                 },
                 {
-                    "text": "8,4 milhões.."
+                    "text": "Valor médio dos pratos."
                 }
             ],
             "explanation": "interfaces are typically used to list the properties and methods for an object"
         },
         {
-            "questionText": "Em quais anos dados do Ministério do Turismo do Brasil mostram que as visitas de americanos, australianos, canadenses e japoneses caíram?",
+            "questionText": "O que um menu longo pode significar de acordo com Jay Rayner?",
             "options": [{
-                    "text": "@number"
+                    "text": "O menu é excelente."
                 },
                 {
-                    "text": "2019 e 2021",
+                    "text": "Que um restaurante está usando mais comida congelada.",
                     "correct": true
                 },
                 {
-                    "text": "2019 e 2022!"
+                    "text": "Que a comida não é boa."
                 },
                 {
-                    "text": "2018 e 2021?"
+                    "text": "Os pratos são muito pequenos"
                 }
             ],
             "explanation": "number[] is another way of writing Array<number> in TypeScript"
         },
         {
-            "questionText": "Em qual cidade fica os bondinhos do Pão de Açúcar?",
+            "questionText": "O que significa um menu curto de acordo com Jay Rayner?",
             "options": [{
-                    "text": "Rio de Janeiro",
+                    "text": "Que eles aperfeiçoaram um pequeno número de pratos excelentes.",
                     "correct": true
                 },
                 {
-                    "text": "Brasília"
+                    "text": "Não tem muita opção de pratos"
                 },
                 {
-                    "text": "São Paulo"
+                    "text": "A comida não é boa."
                 },
                 {
-                    "text": "Belo Horizonte"
+                    "text": "Os pratos são muito pequenos."
                 }
             ],
             "explanation": "a constructor is used by a class to take in parameters"
         },
         {
-            "questionText": "Qual o nome do cientista político brasileiro citado no artigo?",
+            "questionText": "O que significa muitos adjetivos em um menu de acordo com Rayner?",
             "options": [{
-                    "text": "Pedro Gomes"
+                    "text": "Todos os pratos são bons."
                 },
                 {
-                    "text": "Luiz Inácio Lula da Silva"
+                    "text": "Tem muita variedades."
                 },
                 {
-                    "text": "Jair Bolsonaro"
+                    "text": "Pouca atenção dos funcionários."
                 },
                 {
-                    "text": "Leonardo Paz",
+                    "text": "Significam que o restaurante está se esforçando demais com suas palavras e não se esforçando o suficiente em sua cozinha!",
                     "correct": true
                 }
             ],
             "explanation": "async is not used as an access modifier type in TypeScript"
         },
         {
-            "questionText": "Em qual data o Brasil passará a exigir vistos para cidadãos dos Estados Unidos, Austrália, Canadá e Japão  ?",
+            "questionText": "De acordo com o artigo alguns restaurantes têm um menu de comida que não parece muito caro porém tem alguns adicionais que pode fazer ficar muito cara a refeição qual seria esse adicional  ?",
             "options": [{
-                    "text": "1º de novembro"
+                    "text": "Bata frita."
                 },
                 {
-                    "text": "1º de outubro",
+                    "text": "Carta de vinhos",
                     "correct": true
                 },
                 {
-                    "text": "2º de outubro"
+                    "text": "Suco de laranja."
                 },
                 {
-                    "text": "1º de março"
+                    "text": "Suco de manga."
                 }
             ],
             "explanation": "the export keyword allows for the information to be transmitted between files"

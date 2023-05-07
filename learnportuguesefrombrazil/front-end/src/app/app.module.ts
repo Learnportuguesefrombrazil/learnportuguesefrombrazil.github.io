@@ -15,6 +15,7 @@ import { QuestionComponent } from './components/question/question.component';
 import { WelcomeComponent } from './components/welcome/welcome-component';
 import { HttpClientModule } from '@angular/common/http';
 import { ChangeBgDirective } from './directives/change-bg.directive';
+import { TipsComponent } from './components/tips/tips.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ChangeBgDirective } from './directives/change-bg.directive';
     EnglishArticleComponent,
     QuestionComponent,
     WelcomeComponent,
-    ChangeBgDirective
+    ChangeBgDirective,
+    TipsComponent
 
   ],
   imports: [
