@@ -2,11 +2,11 @@
     "questions": [{
             "questionText": "Sobre qual tema estava sendo discutido no artigo?",
             "options": [{
-                    "text": "Dicas para escolher o restaurante certo.",
+                    "text": "Como preparar o Bife Perfeito.",
                     "correct": true
                 },
                 {
-                    "text": "Dicas de beleza"
+                    "text": "Dicas de restaurantes"
                 },
                 {
                     "text": "Viagens internacionais."
@@ -26,101 +26,101 @@
                     "text": "Não olhar o cardápio."
                 },
                 {
-                    "text": "Não verificar os preços dos alimentos e bebidas."
+                    "text": "Comece tirando o bife da geladeira e mantendo-o em temperatura ambiente por cerca de quatro hora. "
                 },
                 {
-                    "text": "Fazer uma pesquisa.",
+                    "text": "Comece tirando o bife da geladeira e mantendo-o em temperatura ambiente por cerca de uma hora. ",
                     "correct": true
                 }
             ],
             "explanation": "enum is not used as a type in TypeScript"
         },
         {
-            "questionText": "Segundo o artigo e com as palavras do Jay Rayner, redator de culinária do Observer, o que deve ser observado no menu ?",
+            "questionText": "Qual das opções abaixo significa malpassado ?",
             "options": [{
-                    "text": "A cor do menu"
+                    "text": "nenhuma das opções"
                 },
                 {
-                    "text": "Tamanho do menu e as palavras que ele usa.",
+                    "text": "rare.",
                     "correct": true
                 },
                 {
-                    "text": "O nome dos pratos."
+                    "text": "well done."
                 },
                 {
-                    "text": "Valor médio dos pratos."
+                    "text": "medium rare."
                 }
             ],
             "explanation": "interfaces are typically used to list the properties and methods for an object"
         },
         {
-            "questionText": "O que um menu longo pode significar de acordo com Jay Rayner?",
+            "questionText": "Qual das opções abaixo significa bem passado ?",
             "options": [{
-                    "text": "O menu é excelente."
+                    "text": "rare."
                 },
                 {
-                    "text": "Que um restaurante está usando mais comida congelada.",
+                    "text": "well done.",
                     "correct": true
                 },
                 {
-                    "text": "Que a comida não é boa."
+                    "text": "medim rare."
                 },
                 {
-                    "text": "Os pratos são muito pequenos"
+                    "text": "nenhuma das opções"
                 }
             ],
             "explanation": "number[] is another way of writing Array<number> in TypeScript"
         },
         {
-            "questionText": "O que significa um menu curto de acordo com Jay Rayner?",
+            "questionText": "Quais das opções significa ao ponto ?",
             "options": [{
-                    "text": "Que eles aperfeiçoaram um pequeno número de pratos excelentes.",
+                    "text": "medium rare.",
                     "correct": true
                 },
                 {
-                    "text": "Não tem muita opção de pratos"
+                    "text": "rare"
                 },
                 {
-                    "text": "A comida não é boa."
+                    "text": "well done."
                 },
                 {
-                    "text": "Os pratos são muito pequenos."
+                    "text": "Nenhuma das opções."
                 }
             ],
             "explanation": "a constructor is used by a class to take in parameters"
         },
         {
-            "questionText": "O que significa muitos adjetivos em um menu de acordo com Rayner?",
+            "questionText": "De acordo com o artigo, o que as pessoas que fazem bife em casa costuma dizer ?",
             "options": [{
-                    "text": "Todos os pratos são bons."
+                    "text": "Que não sabem qual tempero utilizar."
                 },
                 {
-                    "text": "Tem muita variedades."
+                    "text": "Que carne não é barata."
                 },
                 {
-                    "text": "Pouca atenção dos funcionários."
+                    "text": "Que eles não gostam de cozinhar em casa."
                 },
                 {
-                    "text": "Significam que o restaurante está se esforçando demais com suas palavras e não se esforçando o suficiente em sua cozinha!",
+                    "text": "Que a carne fica muito dura",
                     "correct": true
                 }
             ],
             "explanation": "async is not used as an access modifier type in TypeScript"
         },
         {
-            "questionText": "De acordo com o artigo alguns restaurantes têm um menu de comida que não parece muito caro porém tem alguns adicionais que pode fazer ficar muito cara a refeição qual seria esse adicional  ?",
+            "questionText": "Durante a leitura do artigo foi citado um membro do corpo, qual foi esse membro ?",
             "options": [{
-                    "text": "Bata frita."
+                    "text": "Mão"
                 },
                 {
-                    "text": "Carta de vinhos",
+                    "text": "Dedo",
                     "correct": true
                 },
                 {
-                    "text": "Suco de laranja."
+                    "text": "Pé."
                 },
                 {
-                    "text": "Suco de manga."
+                    "text": "Braço."
                 }
             ],
             "explanation": "the export keyword allows for the information to be transmitted between files"
