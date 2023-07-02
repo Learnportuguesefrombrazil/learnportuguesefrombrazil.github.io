@@ -2,7 +2,7 @@
     "questions": [{
             "questionText": "Sobre qual tema estava sendo discutido no artigo?",
             "options": [{
-                    "text": "Como preparar o Bife Perfeito.",
+                    "text": "Sobre os contratempos diários mais comuns.",
                     "correct": true
                 },
                 {
@@ -18,109 +18,109 @@
             "explanation": "TS uses a colon (:) to separate the property name from the property type"
         },
         {
-            "questionText": "Quais das alternativas abaixo corresponde as dicas dadas no artigo ?",
+            "questionText": "Como costumamos chamar os pequenos erros de acordo com o artigo ?",
             "options": [{
-                    "text": "Não fazer pesquisa antes de ir a um restaurante."
+                    "text": "Erro bobo."
                 },
                 {
-                    "text": "Não olhar o cardápio."
+                    "text": "Erro idiota."
                 },
                 {
-                    "text": "Comece tirando o bife da geladeira e mantendo-o em temperatura ambiente por cerca de quatro hora. "
+                    "text": "estúpido. "
                 },
                 {
-                    "text": "Comece tirando o bife da geladeira e mantendo-o em temperatura ambiente por cerca de uma hora. ",
+                    "text": "contratempos. ",
                     "correct": true
                 }
             ],
             "explanation": "enum is not used as a type in TypeScript"
         },
         {
-            "questionText": "Qual das opções abaixo significa malpassado ?",
+            "questionText": "Qual o nome da empresa que realizou a pesquisa ?",
             "options": [{
                     "text": "nenhuma das opções"
                 },
                 {
-                    "text": "rare.",
+                    "text": "OnePoll.",
                     "correct": true
                 },
                 {
-                    "text": "well done."
+                    "text": "Facebook."
                 },
                 {
-                    "text": "medium rare."
+                    "text": "BBC."
                 }
             ],
             "explanation": "interfaces are typically used to list the properties and methods for an object"
         },
         {
-            "questionText": "Qual das opções abaixo significa bem passado ?",
+            "questionText": "Com quantas pessoas a empresa de pesquisa conversou ?",
             "options": [{
-                    "text": "rare."
+                    "text": "10 mil pessoas."
                 },
                 {
-                    "text": "well done.",
+                    "text": "2 mil pessoas.",
                     "correct": true
                 },
                 {
-                    "text": "medim rare."
+                    "text": "4 mil pessoas."
                 },
                 {
-                    "text": "nenhuma das opções"
+                    "text": "300 pessoas."
                 }
             ],
             "explanation": "number[] is another way of writing Array<number> in TypeScript"
         },
         {
-            "questionText": "Quais das opções significa ao ponto ?",
+            "questionText": "Quanto por cento das pessoas pesquisadas disseram ter deixado cair um livro durante a leitura no banho. ?",
             "options": [{
-                    "text": "medium rare.",
+                    "text": "11%.",
                     "correct": true
                 },
                 {
-                    "text": "rare"
+                    "text": "10%"
                 },
                 {
-                    "text": "well done."
+                    "text": "20%."
                 },
                 {
-                    "text": "Nenhuma das opções."
+                    "text": "15%."
                 }
             ],
             "explanation": "a constructor is used by a class to take in parameters"
         },
         {
-            "questionText": "De acordo com o artigo, o que as pessoas que fazem bife em casa costuma dizer ?",
+            "questionText": "Quanto por cento das pessoas admitiram ter esquecido os planos que haviam feitos ?",
             "options": [{
-                    "text": "Que não sabem qual tempero utilizar."
+                    "text": "Dezessete por cento."
                 },
                 {
-                    "text": "Que carne não é barata."
+                    "text": "Vinte por cente."
                 },
                 {
-                    "text": "Que eles não gostam de cozinhar em casa."
+                    "text": "Quinze por cento."
                 },
                 {
-                    "text": "Que a carne fica muito dura",
+                    "text": "Dezesseis por cento",
                     "correct": true
                 }
             ],
             "explanation": "async is not used as an access modifier type in TypeScript"
         },
         {
-            "questionText": "Durante a leitura do artigo foi citado um membro do corpo, qual foi esse membro ?",
+            "questionText": "De acordo com a pesquisa, quanto contratempos em média um adulto tem por ano ?",
             "options": [{
-                    "text": "Mão"
+                    "text": "92"
                 },
                 {
-                    "text": "Dedo",
+                    "text": "84",
                     "correct": true
                 },
                 {
-                    "text": "Pé."
+                    "text": "55"
                 },
                 {
-                    "text": "Braço."
+                    "text": "64"
                 }
             ],
             "explanation": "the export keyword allows for the information to be transmitted between files"
