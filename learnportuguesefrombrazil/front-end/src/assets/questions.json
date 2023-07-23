@@ -2,14 +2,14 @@
     "questions": [{
             "questionText": "Sobre qual tema estava sendo discutido no artigo?",
             "options": [{
-                    "text": "Sobre os contratempos diários mais comuns.",
+                    "text": "Sobre a prescrição de frutas e vegetais para diabéticos.",
                     "correct": true
                 },
                 {
                     "text": "Dicas de restaurantes"
                 },
                 {
-                    "text": "Viagens internacionais."
+                    "text": "Comidas favoritas."
                 },
                 {
                     "text": "Estilo de vida."
@@ -18,70 +18,70 @@
             "explanation": "TS uses a colon (:) to separate the property name from the property type"
         },
         {
-            "questionText": "Como costumamos chamar os pequenos erros de acordo com o artigo ?",
+            "questionText": "Segundo o artigo, em um total de a cada 10 americanos, quantos comem bastantes frutas e vegetais ?",
             "options": [{
-                    "text": "Erro bobo."
+                    "text": "4"
                 },
                 {
-                    "text": "Erro idiota."
+                    "text": "3"
                 },
                 {
-                    "text": "estúpido. "
+                    "text": "2 "
                 },
                 {
-                    "text": "contratempos. ",
+                    "text": "1 ",
                     "correct": true
                 }
             ],
             "explanation": "enum is not used as a type in TypeScript"
         },
         {
-            "questionText": "Qual o nome da empresa que realizou a pesquisa ?",
+            "questionText": "Porque segundo ao artigo apenas 1 em cada 10 americanos como bastante frutas e vegetais ?",
             "options": [{
                     "text": "nenhuma das opções"
                 },
                 {
-                    "text": "OnePoll.",
+                    "text": "Muitas vezes, isso ocorre porque alimentos saudáveis ​​são mais caros ou porque as pessoas vivem em bairros pobres onde alimentos frescos não são fáceis de encontrar.",
                     "correct": true
                 },
                 {
-                    "text": "Facebook."
+                    "text": "Porque as pessoas não gostam de comer frutas e verduras."
                 },
                 {
-                    "text": "BBC."
+                    "text": "Muitos não acredita que frutas e verduras possam trazer benefícios a saúde e muitas delas não tem um gosto bom e é bem difícl de conseguir comer."
                 }
             ],
             "explanation": "interfaces are typically used to list the properties and methods for an object"
         },
         {
-            "questionText": "Com quantas pessoas a empresa de pesquisa conversou ?",
+            "questionText": "Segundo o artigo qual é a causa do diabetes tipo 2 ?",
             "options": [{
-                    "text": "10 mil pessoas."
+                    "text": "Falta de sono."
                 },
                 {
-                    "text": "2 mil pessoas.",
+                    "text": "A má alimentação .",
                     "correct": true
                 },
                 {
-                    "text": "4 mil pessoas."
+                    "text": "Ir dormir muito tarde."
                 },
                 {
-                    "text": "300 pessoas."
+                    "text": "Nenhuma das alternativas."
                 }
             ],
             "explanation": "number[] is another way of writing Array<number> in TypeScript"
         },
         {
-            "questionText": "Quanto por cento das pessoas pesquisadas disseram ter deixado cair um livro durante a leitura no banho. ?",
+            "questionText": "Segundo o artigo, um novo estudo sugere que prescrever frutas e vegetais baratos ou gratuitos para americanos com diabetes pode prevenir uma certa quantidade eventos graves de saúde, qual é essa quantidade segundo o artigo ?",
             "options": [{
-                    "text": "11%.",
+                    "text": "292.000",
                     "correct": true
                 },
                 {
-                    "text": "10%"
+                    "text": "82.000"
                 },
                 {
-                    "text": "20%."
+                    "text": "92.000"
                 },
                 {
                     "text": "15%."
@@ -90,37 +90,37 @@
             "explanation": "a constructor is used by a class to take in parameters"
         },
         {
-            "questionText": "Quanto por cento das pessoas admitiram ter esquecido os planos que haviam feitos ?",
+            "questionText": "Segundo o artigo, um novo estudo sugere que prescrever frutas e vegetais baratos ou gratuitos para americanos com diabetes pode economizar uma certa quantia de dinheiro em 25 anos, qual é o valor dessa quantia ?",
             "options": [{
-                    "text": "Dezessete por cento."
+                    "text": "990,5 mil."
                 },
                 {
-                    "text": "Vinte por cente."
+                    "text": "39,6 milhões."
                 },
                 {
-                    "text": "Quinze por cento."
+                    "text": "25,6 milhões"
                 },
                 {
-                    "text": "Dezesseis por cento",
+                    "text": "39,6 bilhões",
                     "correct": true
                 }
             ],
             "explanation": "async is not used as an access modifier type in TypeScript"
         },
         {
-            "questionText": "De acordo com a pesquisa, quanto contratempos em média um adulto tem por ano ?",
+            "questionText": "Segundo o artigo, qual foi as idades das pessoas que participaram da pesquisa ?",
             "options": [{
-                    "text": "92"
+                    "text": "40 e 78"
                 },
                 {
-                    "text": "84",
+                    "text": "40 e 79",
                     "correct": true
                 },
                 {
-                    "text": "55"
+                    "text": "39 e 79"
                 },
                 {
-                    "text": "64"
+                    "text": " 40 e 85"
                 }
             ],
             "explanation": "the export keyword allows for the information to be transmitted between files"
