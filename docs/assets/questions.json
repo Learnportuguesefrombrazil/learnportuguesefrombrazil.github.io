@@ -2,7 +2,7 @@
     "questions": [{
             "questionText": "Sobre qual tema estava sendo discutido no artigo?",
             "options": [{
-                    "text": "Sobre a prescrição de frutas e vegetais para diabéticos.",
+                    "text": "Sobre comidas estranhas do Brasil.",
                     "correct": true
                 },
                 {
@@ -18,109 +18,109 @@
             "explanation": "TS uses a colon (:) to separate the property name from the property type"
         },
         {
-            "questionText": "Segundo o artigo, em um total de a cada 10 americanos, quantos comem bastantes frutas e vegetais ?",
+            "questionText": "Segundo o artigo, quantas comidas estranhas foram citadas no artigo?",
             "options": [{
-                    "text": "4"
+                    "text": "7"
                 },
                 {
-                    "text": "3"
+                    "text": "9"
                 },
                 {
-                    "text": "2 "
+                    "text": "6 "
                 },
                 {
-                    "text": "1 ",
+                    "text": "8 ",
                     "correct": true
                 }
             ],
             "explanation": "enum is not used as a type in TypeScript"
         },
         {
-            "questionText": "Porque segundo ao artigo apenas 1 em cada 10 americanos como bastante frutas e vegetais ?",
+            "questionText": "Quando o assunto é a culinária brasileira, segundo o artigo o que logo se pensa ?",
             "options": [{
                     "text": "nenhuma das opções"
                 },
                 {
-                    "text": "Muitas vezes, isso ocorre porque alimentos saudáveis ​​são mais caros ou porque as pessoas vivem em bairros pobres onde alimentos frescos não são fáceis de encontrar.",
+                    "text": "feijoada, coxinha ou pão de queijo",
                     "correct": true
                 },
                 {
-                    "text": "Porque as pessoas não gostam de comer frutas e verduras."
+                    "text": "Moela."
                 },
                 {
-                    "text": "Muitos não acredita que frutas e verduras possam trazer benefícios a saúde e muitas delas não tem um gosto bom e é bem difícl de conseguir comer."
+                    "text": "Coração de frango."
                 }
             ],
             "explanation": "interfaces are typically used to list the properties and methods for an object"
         },
         {
-            "questionText": "Segundo o artigo qual é a causa do diabetes tipo 2 ?",
+            "questionText": "Segundo o artigo qual é a diferença entre “chouriça” ou “morcela ?",
             "options": [{
-                    "text": "Falta de sono."
+                    "text": "Uma é feita de carne bolvina a outra de carne suína."
                 },
                 {
-                    "text": "A má alimentação .",
+                    "text": "Nenhuma, é a mesma coisa .",
                     "correct": true
                 },
                 {
-                    "text": "Ir dormir muito tarde."
+                    "text": "Todas as respostas estão incorretas."
                 },
                 {
-                    "text": "Nenhuma das alternativas."
+                    "text": "Uma contém carne de aves a outra não."
                 }
             ],
             "explanation": "number[] is another way of writing Array<number> in TypeScript"
         },
         {
-            "questionText": "Segundo o artigo, um novo estudo sugere que prescrever frutas e vegetais baratos ou gratuitos para americanos com diabetes pode prevenir uma certa quantidade eventos graves de saúde, qual é essa quantidade segundo o artigo ?",
+            "questionText": "Segundo o artigo, de qual região é a buchada de bode ?",
             "options": [{
-                    "text": "292.000",
+                    "text": "Região nordestina.",
                     "correct": true
                 },
                 {
-                    "text": "82.000"
+                    "text": "Região sul"
                 },
                 {
-                    "text": "92.000"
+                    "text": "Região centro-oeste."
                 },
                 {
-                    "text": "15%."
+                    "text": "nenhuma das opções."
                 }
             ],
             "explanation": "a constructor is used by a class to take in parameters"
         },
         {
-            "questionText": "Segundo o artigo, um novo estudo sugere que prescrever frutas e vegetais baratos ou gratuitos para americanos com diabetes pode economizar uma certa quantia de dinheiro em 25 anos, qual é o valor dessa quantia ?",
+            "questionText": "Segundo o artigo, qual é o prato que leva vísceras de porco, do cabrito ou do borrego ?",
             "options": [{
-                    "text": "990,5 mil."
+                    "text": "Coração de frango."
                 },
                 {
-                    "text": "39,6 milhões."
+                    "text": "Moela."
                 },
                 {
-                    "text": "25,6 milhões"
+                    "text": "Buchada de bode"
                 },
                 {
-                    "text": "39,6 bilhões",
+                    "text": "Sarapatel",
                     "correct": true
                 }
             ],
             "explanation": "async is not used as an access modifier type in TypeScript"
         },
         {
-            "questionText": "Segundo o artigo, qual foi as idades das pessoas que participaram da pesquisa ?",
+            "questionText": "Segundo o artigo, qual é a única parte do frango que não é exportada ?",
             "options": [{
-                    "text": "40 e 78"
+                    "text": "Moela"
                 },
                 {
-                    "text": "40 e 79",
+                    "text": "Coração",
                     "correct": true
                 },
                 {
-                    "text": "39 e 79"
+                    "text": "Fígado"
                 },
                 {
-                    "text": " 40 e 85"
+                    "text": "asas"
                 }
             ],
             "explanation": "the export keyword allows for the information to be transmitted between files"
